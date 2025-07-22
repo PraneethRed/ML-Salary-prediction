@@ -67,11 +67,7 @@ native_country = st.selectbox("Country of Origin", [
     "Nicaragua", "Scotland", "Thailand", "Yugoslavia", "El-Salvador", "Trinadad&Tobago",
     "Peru", "Hong", "Holand-Netherlands"
 ])
-
-
 fnlwgt = 200000
-
-# --- Prediction ---
 if st.button("🔍 Predict Income"):
     input_data = pd.DataFrame({
         "age": [age],
