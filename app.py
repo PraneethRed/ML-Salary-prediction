@@ -68,7 +68,7 @@ native_country = st.selectbox("Country of Origin", [
     "Peru", "Hong", "Holand-Netherlands"
 ])
 
-# For simplicity, set fnlwgt to default (hidden from user to avoid confusion)
+
 fnlwgt = 200000
 
 # --- Prediction ---
