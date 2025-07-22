@@ -9,7 +9,7 @@ st.title("💼 Income Prediction App")
 st.write("Wondering if someone's income is likely to be above $50K? Fill in the details below and find out!")
 
 # Load model and encoder
-model, encoder, feature_names = joblib.load("c:/Users/Praneeth/best_model.pkl")
+model, encoder, feature_names = joblib.load("best_model.pkl")
 
 # Education mapping
 education_mapping = {
